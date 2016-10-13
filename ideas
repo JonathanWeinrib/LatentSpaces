@@ -1,0 +1,27 @@
+have the load page be loading a start screen.
+make a start button.
+when it's clicked it loads the next page.
+
+on that page there are two bins. the bins 
+there is a box class, that will be blue and will contain lyrics.
+each box will have a dynamic id of either rap or computer. 
+when the box is dragged into one of the bins, an answer will show up on the page.
+if the id matches the box it will be a success page.
+if the id does not it wont be
+
+
+
+
+okay so make a box class. that will be blue and will contain rap lyrics.
+have a dynamic id that will change each time the page loads with the randomization of the lyrics. the id will iether be "rap" or "computer"
+
+
+
+
+have the boxes be draggable so you can drag them to the box on the left or right
+if you 
+
+
+
+option 2: have 2 boxes and the screen asks which one is rap? you click on it and that button expands to the whole screen. it either becomes green or it becomes red depending on whether yo're right or not.
+

@@ -1,0 +1,66 @@
+Control Flow:
+
+Intro Screen loads:
+	onpageload
+
+Start game button
+	onbuttonclick
+
+lyrics show up
+
+clicks on them (or drags)
+	button disappears
+	result shows
+
+update score
+
+
+
+maybe have a username entry screen and show a high score table at the end
+
+
+non live demo where it goes through the process. 
+so it shows "seed word" and explains what it is and then puts it on the page. then theres a box which shows the probabilities of the next words. then the most probably one is highlighted and dragged over to the text part and that becomes the next word. then we show the system reading both words (its scrolls over them in blue changing the color one more letter at a time, until it gets up to the empty space), and then it shows the next probabilites...
+
+
+
+so when you click on the wrong button it says wrong.
+when the song is a real song (whether you click it or not) it shows you what its from
+ you wrong and shows you the real answer - if it's not a real song it says something silly like computers are so good at rap.
+ and it will say the ocmputer tricked you.
+
+ when you click on the button the other one disappears, the one you clicked enlarges to become bigger and move to the center of the page, and the words above show up.
+
+ so i guess i'll have the two texts above either be created or they will just be hidden otherwise.
+
+
+ when you hover your mouse over the button you're thinking it shakes a little or grows a little bigger
+
+ $(document).ready(function(){
+
+  $('div').hover(
+    function(){
+        $(this).addClass('active');
+    },
+    function(){
+       $(this).removeClass('active'); 
+    });
+
+});
+
+
+$(document).ready(function() {
+   $('div').animate({left:'+=10px'},500);
+});
+
+
+
+jquery ui .draggable lets you drag somethign to the garbage bin!
+
+
+so two options - have to buttons side by side, rap and computer, and show one text at a time. when they click make the button get bigger.
+
+option 2: have to lyrics and use .draggable to have them drag it into the bin they think is right. either score it after each time or have them un 5 at a time.
+
+better idea for option 2: let them do it twice with just one example of each to show them how it is. then say "its about to get harder", and have them guess 5 in a row and then show them the score.
+

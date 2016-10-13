@@ -1,0 +1,77 @@
+#start_button {
+
+    height:70px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: #87CEFA;
+    margin:auto;
+    text-align:center;
+    vertical-align:middle;
+    font-family: arial;
+    font-size:15px;
+    line-height:35px; /*make half height*/
+
+    /*display: block;*/
+    }
+    
+.rap_lyric
+ {
+
+    height:130px;
+    width: 150px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: white;
+    margin:auto;
+    /*margin-top:0px;*/
+    /*margin-left:0px;*/
+    text-align:center;
+    vertical-align:middle;
+    font-family: arial;
+    font-size:15px;
+    line-height:35px; /*make half height*/
+
+    /*display: block;*/
+    }
+
+.bin
+ {
+
+    height:400px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: orange;
+    margin:10px;
+    text-align:center;
+    vertical-align:middle;
+    font-family: arial;
+    font-size:15px;
+    line-height:35px; /*make half height*/
+
+    /*display: block;*/
+    }
+
+
+ #rap.bin{
+    background-color:purple;
+    position: absolute;
+    right: 0px;
+
+ }  
+ #computer.bin{
+    background-color:orange;
+    position: absolute;
+    left: 0px;
+
+ }
+#rap{
+    /*background-color: red;*/
+
+}
+.correct{
+    background-color: green;}
+.incorrect{
+    background-color:red;
+}
